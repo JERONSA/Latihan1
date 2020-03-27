@@ -1,13 +1,9 @@
 <?php
 // pengulangan
-// for 
-for($i = 0; $i < 5; $i++){
-    echo "Hai, saya urutan ke-$i <br>";
-}
+// while 
+$i=0; #bagian inisialisasi
+while ( $i < 5) { #didalam bracket () kondisi termisasi
+	echo "Hai, Dunia! <br>";
+	$i++; #increment
+ } 
  ?>
- <!-- 
- // $i = 0; bagian inisialisasi/menentukan variabel
- // $i < 5; bagian kondisi/untuk memberhentikan kondisi perulangan ketika berjumlah <5
- // i++ bagian increment (menambah) kondisi
- -->
- 
