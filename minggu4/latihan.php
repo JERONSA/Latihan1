@@ -1,9 +1,9 @@
 <?php
-// pengulangan
-// while 
-$i=0; #bagian inisialisasi
-while ( $i < 5) { #didalam bracket () kondisi termisasi
-	echo "Hai, Dunia! <br>";
-	$i++; #increment
+
+$ulangi = 1; 
+
+while($ulangi < 6) { 
+	echo "<p>Hai, ini baris ke-$ulangi </p>";
+	$ulangi++; #increment
  } 
  ?>
