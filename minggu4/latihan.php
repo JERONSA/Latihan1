@@ -1,9 +1,9 @@
 <?php
 // pengulangan
 // for 
-for($i=0;$i < 5; $i++){ 
- 	echo "Hello Word! <br>";
- } 
+for($i = 0; $i < 5; $i++){
+    echo "Hai, saya urutan ke-$i <br>";
+}
  ?>
  <!-- 
  // $i = 0; bagian inisialisasi/menentukan variabel
