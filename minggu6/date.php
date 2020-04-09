@@ -5,10 +5,11 @@
 	echo date("M");
 	echo date("m");
 	echo date("Y");	*/
-	echo date (
+	/*echo date (
 		"l, d-M-Y",
 		time() -
 		60 * 60 * 24 * 500
 	);	
-	//dengan format tersebut kita dapat mengetahui 100 hari yang akan datang jatuh pada hari apa??
+	//dengan format tersebut kita dapat mengetahui 100 hari yang akan datang jatuh pada hari apa??*/
+	echo mktime();
  ?>
