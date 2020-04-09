@@ -11,5 +11,5 @@
 		60 * 60 * 24 * 500
 	);	
 	//dengan format tersebut kita dapat mengetahui 100 hari yang akan datang jatuh pada hari apa??*/
-	echo mktime();
+	echo date("l", mktime());
  ?>
