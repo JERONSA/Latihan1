@@ -29,13 +29,13 @@ $angka = [1, 3, 5, 7, 9,];
 <body>
 	 <?php for ($i = 0; $i < 5; $i++) { ?>
 	 	<div class="kotak">
-	 		<?php echo $angka[$i];?>
+	 		<?= $angka[$i];?>
 	 	</div>
 	<?php } ?>
 	<div class="clear"></div>
 	<?php foreach ($angka as $a): ?>
 		<div class="kotak">
-			<?php echo "$a"; ?>
+			<?= "$a"; ?>
 		</div>
 
 	<?php endforeach; ?>
