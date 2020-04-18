@@ -8,7 +8,9 @@ $hari = array("Senin", "Selasa", "Rabu");
 
 //echo $hari [0]
 
-print_r($hari);
+//print_r($hari);
 
-
- ?>
+//cara baru
+$bulan = ["Januari", "Februari", "Maret"];
+print_r($bulan);
+ ?>}
