@@ -2,7 +2,8 @@
 //array multidimensi/array didalam array/array bersarang
 $mahasiswa = [
 	 ["Jenny Sabuna", "19520003", "Teknologi Informasi", "jeniroan110061980@gmail.com"], 
- 	["Anggi", "19510003", "Sistem Informasi", "anggi@gmail.com"]
+ 	["Anggi", "19510003", "Sistem Informasi", "anggi@gmail.com"],
+ 	 ["Wahyu", "19520002", "Teknologi Informasi", "wahyu@gmail.com"]
 ];
  ?>
  <!DOCTYPE html>
