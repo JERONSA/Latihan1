@@ -17,7 +17,12 @@ $mahasiswa = [
  	<li><?php echo $mahasiswa[0][1]; ?></li>	
  	<li><?php echo $mahasiswa[0][2]; ?></li>	
  	<li><?php echo $mahasiswa[0][3]; ?></li>
-
+ </ul>
+ <ul>
+ 	<li><?php echo $mahasiswa[1][0]; ?></li>	
+ 	<li><?php echo $mahasiswa[1][1]; ?></li>	
+ 	<li><?php echo $mahasiswa[1][2]; ?></li>	
+ 	<li><?php echo $mahasiswa[1][3]; ?></li>
  </ul>
  </body>
  </html>
