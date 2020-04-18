@@ -21,6 +21,9 @@ $angka = [1, 3, 5, 7, 9,];
 			margin : 3px;
 			float : left;
 			}
+			.clear{
+				clear:  both;
+			}
 	</style>
 </head>
 <body>
@@ -28,7 +31,15 @@ $angka = [1, 3, 5, 7, 9,];
 	 	<div class="kotak">
 	 		<?php echo $angka[$i];?>
 	 	</div>
-		<?php } ?>
+	<?php } ?>
+	<div class="clear"></div>
+	<?php foreach ($angka as $a): ?>
+		<div class="kotak">
+			<?php echo "$a"; ?>
+		</div>
+
+	<?php endforeach; ?>
+
 </body>
 </html>
 
