@@ -9,12 +9,7 @@ $mahasiswa = ["Jenny Sabuna", "19520003", "Teknologi Informasi", "jeniroan110061
  <body>
  <h1>Daftar Mahasiswa</h1>
  <ul>
- 	<?php foreach ($mahasiswa as $mhs): ?>
- 		<li>
- 			<?php echo $mhs; ?>
- 		</li>
-	<?php endforeach; ?>
- 		
+ 	<li><?php echo "$mahasiswa[0]"; ?></li>	
  </ul>
  </body>
  </html>
