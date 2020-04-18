@@ -24,9 +24,11 @@ $angka = [1, 3, 5, 7, 9,];
 	</style>
 </head>
 <body>
-	<div class="kotak">1</div>
-	<div class="kotak">3</div>
-	<div class="kotak">5</div>	
+	 <?php for ($i = 0; $i < 5; $i++) { ?>
+	 	<div class="kotak">
+	 		<?php echo $angka[$i];?>
+	 	</div>
+		<?php } ?>
 </body>
 </html>
 
