@@ -4,6 +4,8 @@ $hari = array("Senin", "Selasa", "Rabu");
 
 
 //cara memanggil array
-var_dump($hari);
+//var_dump($hari);
+
+echo $hari [0]
 
  ?>
