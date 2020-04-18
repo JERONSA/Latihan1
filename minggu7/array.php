@@ -10,14 +10,15 @@ $hari = array("Senin", "Selasa", "Rabu");
 
 // print_r($hari);
 // echo "<br>";
+
 //cara baru
 $bulan = ["Januari", "Februari", "Maret"];
 print_r($bulan);
-
-var_dump($hari);
+echo "<br>";
+print_r($hari);
 $hari [] = "Kamis";
 echo "<br>";
-var_dump($hari);
+print_r($hari);
 
 
 
