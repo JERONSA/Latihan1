@@ -13,6 +13,10 @@
 			margin: 3px;
 			float: left;
 		}
+
+		.kotak:hover {
+			transform: rotate(360deg);
+		}
 	</style>
 </head>
 <body>
