@@ -15,6 +15,6 @@
 	</style>
 </head>
 <body>
-	<div class="kotak"></div>
+	<div class="kotak">5</div>
 </body>
 </html>
