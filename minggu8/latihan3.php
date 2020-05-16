@@ -4,12 +4,16 @@
  ["nama" => "Jenny Sabuna", 
  "nim" => "19520003",
  "jurusan" => "Teknologi Informasi", 
- "email" =>"jeniroan11061980@gmail.com"],
+ "email" => "jeniroan11061980@gmail.com",
+  "tugas" => [100,90,80]
+],
 
- ["nama" =>"Adolfina Sabuna", 
+[
+ "nama" =>"Adolfina Sabuna", 
  "nim" =>"19520001", 
  "jurusan" => "Teknologi Informasi", 
- "email" =>"jeniroan@gmail.com"]
+ "email" =>"jeniroan@gmail.com"
+	]
 ];
   ?>
   <!DOCTYPE html>
@@ -19,14 +23,19 @@
   </head>
   <body>
   	<h1>Data Mahasiswa</h1>
-  	<?php foreach ($mahasiswa as $mhs): ?>
-  	<ul>
-  		<li>Nama : <?= $mhs["nama"] ?></li>
-  		<li>NIM :<?= $mhs["nim"] ?></li>
-  		<li>Jurusan :<?= $mhs["jurusan"] ?></li>
-  		<li>Email : <?= $mhs["email"] ?></li>
-  	</ul>  
-  <?php endforeach; ?>
+  	<?php echo $mahasiswa[0]["tugas"][1]; ?>
   </body>
 
   </html>
+
+
+
+
+  <!-- <?php foreach ($mahasiswa as $mhs): ?> --> 
+  	<!-- <ul> -->
+  		<!-- <li>Nama : <?= $mhs["nama"] ?></li> -->
+  		<!-- <li>NIM :<?= $mhs["nim"] ?></li> -->
+  		<!-- <li>Jurusan :<?= $mhs["jurusan"] ?></li> -->
+  		<!-- <li>Email : <?= $mhs["email"] ?></li> -->
+  	<!-- </ul>   -->
+  <!-- <?php endforeach; ?> --> 
