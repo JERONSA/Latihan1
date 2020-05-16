@@ -22,6 +22,9 @@
 	</style>
 </head>
 <body>
-	<div class="kotak">5</div>
+	<?php 
+	$angka = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+	 ?>
+	<div class="kotak"><?= $angka[3]; ?></div>
 </body>
 </html>
