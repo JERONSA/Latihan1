@@ -7,6 +7,7 @@
 			width: 30px;
 			height: 30px;
 			background-color: greenyellow;
+			text-align: center;
 			vertical-align: center;
 			line-height: 30px;
 			margin: 3px;
