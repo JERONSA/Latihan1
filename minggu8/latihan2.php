@@ -19,6 +19,10 @@
 			transform: rotate(360deg);
 			border-radius: 50%; 
 		}
+		.clear {
+			clear: both;
+		}
+
 	</style>
 </head>
 <body>
@@ -33,7 +37,7 @@
 	 <?php foreach ($a as $b) :?>
 	<div class="kotak"><?= $b; ?></div>
 	<?php endforeach; ?>
-<!-- <div class="clear"></div> -->
+	<div class="clear"></div>
 <?php endforeach; ?>
 </body>
 </html>
