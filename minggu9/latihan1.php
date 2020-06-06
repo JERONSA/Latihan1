@@ -12,5 +12,6 @@
 	<li>[36.37.38.39.40]</li>
 	<li>Bisa COD</li>
 </ul>
+<a href="latihan.php">Kembali Ke Halaman Satu</a>
 </body>
 </html>
