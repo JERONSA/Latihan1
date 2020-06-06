@@ -5,13 +5,13 @@
 </head>
 <body>
 <ul>
-	<li><img src="img/sepatu1.jpg"></li>
-	<li>Jimmy Choo</li>
-	<li>$695</li>
-	<li>Luar Negeri</li>
-	<li>[36.37.38.39.40]</li>
-	<li>Bisa COD</li>
+	<li><img src="img/<?= $_GET["gambar"]; ?>"></li>
+	<li><?= $_GET["merk"];?></li>
+	<li><?= $_GET["harga"];?></li>
+	<li><?= $_GET["pengiriman"];?></li>
+	<li><?= $_GET["variation"];?></li>
+	<li><?= $_GET["pembayaran"];?></li>
 </ul>
-<a href="latihan.php">Kembali Ke Halaman Satu</a>
+<a href="latihan.php">Kembali Ke Halaman Sebelumnya</a>
 </body>
 </html>

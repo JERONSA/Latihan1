@@ -120,7 +120,7 @@ $sepatu = [
 	<ul>
 	<?php foreach ($sepatu as $spt) : ?>
 			<li>
-				<a href="latihan1.php"><?= $spt ["merk"]; ?> <?a>
+				<a href="latihan1.php?merk=<?= $spt["merk"]; ?> &harga= <?= $spt["harga"];?> &pengiriman= <?= $spt["pengiriman"];?> &variation= <?= $spt["variation"]; ?> &pembayaran=<?= $spt["pembayaran"]; ?> &gambar=<?=$spt["gambar"]; ?>"><?= $spt ["merk"]; ?> </a>
 			</li>
 	<?php endforeach; ?>
 	</ul>
