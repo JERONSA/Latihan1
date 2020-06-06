@@ -116,7 +116,7 @@ $sepatu = [
 	<title>Latihan GET</title>
 </head>
 <body>
-	<h1>MODEL SEPATU</h1>
+	<h1>DAFTAR SEPATU</h1>
 	<?php foreach ($sepatu as $spt) : ?>
 		<ul>
 			<li><?= $spt ["merk"]; ?></li>
