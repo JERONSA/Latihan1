@@ -117,11 +117,13 @@ $sepatu = [
 </head>
 <body>
 	<h1>DAFTAR SEPATU</h1>
+	<ul>
 	<?php foreach ($sepatu as $spt) : ?>
-		<ul>
-			<li><?= $spt ["merk"]; ?></li>
-		</ul>
-		<?php endforeach; ?>
+			<li>
+				<a href="latihan1.php"><?= $spt ["merk"]; ?> <?a>
+			</li>
+	<?php endforeach; ?>
+	</ul>
 	</body>
 </html>
  
