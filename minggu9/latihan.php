@@ -1,6 +1,8 @@
 <?php 
 //variabel superglobal
- var_dump($_SERVER);
+
+$_GET ["nama"] = "Jeniroan Sabuna";
+ var_dump($_GET);
 
 
 
