@@ -16,6 +16,9 @@
 			<label for="password">Pasword : </label>
 			<input type="password" name="password" id="password">
 		</li>
+		<li>
+			<button type="submit" name="submit">LOGIN</button>
+		</li>
 	</form>
 </ul>
 </body>
