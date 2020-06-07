@@ -24,7 +24,7 @@ if (isset($_POST["submit"])) {
 	<?php endif; ?>
 
 <ul>
-	<form action="" method="POST">
+	<form action="latihan.php" method="POST">
 		<li>
 			<label for="username">Username : </label>
 			<input type="text" name="username" id="username">

@@ -21,6 +21,8 @@ if (!isset($_GET["merk"]) ) {
 	<li><?= $_GET["variation"];?></li>
 	<li><?= $_GET["pembayaran"];?></li>
 </ul>
-<a href="login.php">Kembali kehalaman login</a>
+<a href="latihan.php">PREVIOUS</a>
+<a href="login.php">LOGOUT</a>
+</body>
 </body>
 </html>
