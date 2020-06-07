@@ -4,7 +4,7 @@
 	<title>Metode Post</title>
 </head>
 <body>
-	<form action="latihan2.php" method="Post">
+	<form action="latihan2.php" method="GET">
 		Masukkan Nama :
 	<input type="text" name="nama">	
 	<br>
