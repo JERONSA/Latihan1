@@ -1,3 +1,10 @@
+<?php 
+//cek data isset
+if (!isset($_POST["submit"])) {
+	header("Location: latihan3.php");
+	exit;
+	}
+ ?>
 <!DOCTYPE html>
 <html>
 <head>

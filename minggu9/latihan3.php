@@ -4,7 +4,8 @@
 	<title>Metode Post</title>
 </head>
 <body>
-	<form action="latihan2.php" method="Post">
+	<h1>Selamat Datang, <?= $_POST["nama"]; ?></h1>
+	<form method="Post">
 		Masukkan Nama :
 	<input type="text" name="nama">	
 	<br>
