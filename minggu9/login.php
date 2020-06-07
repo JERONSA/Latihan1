@@ -10,8 +10,7 @@ if (isset($_POST["submit"])) {
 	} else 
 //jika salah, pesan error
 		$error = true;
-	
-}
+	}
  ?>
 <!DOCTYPE html>
 <html>
@@ -21,7 +20,7 @@ if (isset($_POST["submit"])) {
 <body>
 <h1>Login Admin</h1>
 	<?php if(isset($error)): ?>
-	<p style="color: red; font-style: italic;">username/pasword salah!</p>
+	<p style="color: red; font-style: italic;">Your Username/Pasword Incorrect!</p>
 	<?php endif; ?>
 
 <ul>
